@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    color: yellow;
+}
+
+h2 {
+    font-size: 48px;
+    color: lightcoral;
+}
+
+h3 {
+    font-size: 36px;
+    color: lightgreen;
+}
+
+p {
+    font-size: 30px;
+}
+
+li {
+    font-size: 24px;
+}
+
+.link {
+    font-size: 36px;
+}
