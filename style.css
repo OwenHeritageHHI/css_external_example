@@ -1,6 +1,18 @@
 body {
-    background-color: black;
+    background-color: lightgrey;
     color: white;
+    margin-top: -20px;
+}
+
+#main {
+    background-color: black;
+    width: 70%;
+    display: block;
+    margin: auto auto;
+}
+
+h1, h2, h3, p, li {
+    margin: 20px 30px;
 }
 
 h1 {
@@ -20,7 +32,7 @@ h3 {
 }
 
 p {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 li {
@@ -29,4 +41,39 @@ li {
 
 .link {
     font-size: 36px;
+}
+
+img {
+    display: block;
+    margin: auto auto;
+}
+
+
+.menu-ul {
+    list-style-type: none; /* take away the bullet */
+    background-color: lightgrey;
+    margin: 20px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.menu-li {
+    background-color: lightgrey;
+    margin: 0 20px;
+    border: 1xp solid black;
+    border-radius: 30px;
+}
+
+.menu-li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    display: block;
+}
+
+.footer-p {
+    font-size: 20px;
 }
