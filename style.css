@@ -74,7 +74,23 @@ img {
     display: block;
 }
 
+h3 a {
+    color: white;
+    text-decoration: none;
+}
+
 .footer-p {
     font-size: 20px;
     padding-bottom: 25px;
+}
+
+#quote {
+    margin: 30px 150px;
+    padding: 30px;
+    border: 5px solid black;
+    border-radius: 20px;
+    background-color: blueviolet;
+    color: white;
+    line-height: 150%;
+    font-weight: bold;
 }
