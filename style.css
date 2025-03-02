@@ -59,11 +59,10 @@ img {
 
 
 .menu-ul {
-    list-style-type: none; /* take away the bullet */
+    list-style-type: none;
     background-color: lightgrey;
     margin: 20px;
     padding: 0;
-    overflow: hidden;
     background-color: black;
     text-align: center;
 }
