@@ -46,6 +46,15 @@ li {
 img {
     display: block;
     margin: auto auto;
+    width: 50%;
+    height: auto;
+}
+
+.ss-img {
+    display: block;
+    margin: auto auto;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -55,9 +64,8 @@ img {
     margin: 20px;
     padding: 0;
     overflow: hidden;
-    display: flex;
-    justify-content: center;
     background-color: black;
+    text-align: center;
 }
 
 .menu-li {
@@ -65,13 +73,14 @@ img {
     margin: 0 20px;
     border: 1xp solid black;
     border-radius: 30px;
+    display: inline-block;
 }
 
 .menu-li a {
     text-decoration: none;
     color: black;
     padding: 10px 20px;
-    display: block;
+    display: inline-block;
 }
 
 h3 a {
