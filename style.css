@@ -83,6 +83,15 @@ img {
     display: inline-block;
 }
 
+.menu-li a:hover {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    display: inline-block;
+    font-size: 30px;
+}
+
 h3 a {
     color: white;
     text-decoration: none;
